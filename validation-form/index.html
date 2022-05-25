@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="icomoon/style.css">
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v6.0.0/css/all.css"
+    />
+    <title>learn JavaScript slider</title>
+  </head>
+  <body>
+    <h1 class="title">JavaScript Validation Form</h1>
+
+
+<section>
+
+
+  <h1> validation form</h1>
+
+  
+<div class="par-Btn"><button id="mainbtn" >Create An Account</button></div>
+
+  <div class="parent-of-form">
+    <form id="form" action="action_page.php">
+
+      <div style="position: relative" class="form-container">
+
+        <h2 style="text-align: center">Create Account</h2>
+        <div id="close">&#10006;</div>
+
+        <div class="papa">
+          <label for="username"><b>Username</b></label>
+          <input
+            id="username"
+            type="text"
+            placeholder="Enter Username"
+            name="email"
+            required
+          />
+          <div class="icon-check-circle"></div>
+          <p id="usermassage">at least 3 character</p>
+        </div>
+
+        <div class="papa">
+          <label for="email"><b>Email</b></label>
+          <input
+            id="email"
+            type="email"
+            placeholder="Enter Email"
+            name="email"
+            required
+          />
+          <div class="icon-check-circle"></div>
+          <p id="emailMassage">Please enter a correct email address</p>
+        </div>
+
+        <div class="papa">
+          <label for="psw"><b>Password</b></label>
+          <input
+            type="password"
+            placeholder="Enter Password"
+            name="psw"
+            id="psw"
+            required
+          />
+          <div class="icon-check-circle"></div>
+          <p id="pswMassage">
+            Password must be at least 8 characters with 1 upper case
+            letter and 1 number.
+          </p>
+        </div>
+
+        <div class="papa">
+          <label for="psw-repeat"><b>Repeat Password</b></label>
+          <input
+            type="password"
+            placeholder="Repeat Password"
+            name="psw-repeat"
+            id="psw-repeat"
+            required
+          />
+          <div class="icon-check-circle"></div>
+          <p id="RepeatMass">Please make sure your passwords match</p>
+        </div>
+
+        <button disabled id="regbtn"  type="submit" class="registerbtn">Register</button>
+      </div>
+    </form>
+  </div>
+</section>
+
+    <script src="main.js"></script>
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v6.0.0/js/all.js"
+    ></script>
+  </body>
+</html>
